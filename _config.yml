@@ -11,5 +11,7 @@ minima:
     - title: Tide at X
       icon: x-twitter
       url: "https://x.com/tide-foundation"
-# Optional but nice:
-author: tidesupreme
+
+author:
+  name: Tide Team
+  email: "info@tide.org"
