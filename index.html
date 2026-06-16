@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TideSupreme · The team behind Tide</title>
+  <meta name="description" content="The people building Tide: cryptographers, engineers and security folks making breach-immune software the new normal. Open source, built in the open. Come build with us." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Permanent+Marker&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="brand">
+      <img class="brand__mark" src="logo.png" alt="Tide logo" />
+      <span class="brand__name">Tide<span class="brand__sup">Supreme</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#team">Team</a>
+      <a href="#expertise">Expertise</a>
+    </nav>
+    <div class="nav__right">
+      <button id="theme" class="neu-btn theme-toggle" aria-label="Toggle light / dark">
+        <span class="theme-toggle__thumb"></span>
+      </button>
+      <a href="https://tide.org" target="_blank" rel="noopener" class="neu-btn nav__cta">tide.org ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <h1 class="hero__title">We make breaches<br /><span class="grad">inconsequential.</span></h1>
+      <p class="hero__sub">
+        More than a team, a growing community of cryptographers, engineers and builders turning
+        breach-proof cryptography into tools anyone can ship.
+        <strong>Come build the future of digital trust with us.</strong>
+      </p>
+      <div class="hero__actions">
+        <a href="https://discord.gg/XBMd9ny2q5" target="_blank" rel="noopener" class="neu-btn neu-btn--accent">Join the Discord ↗</a>
+        <a href="#team" class="neu-btn">Meet the team</a>
+      </div>
+
+      <figure class="hero__showcase">
+        <div class="hero__screen">
+          <img src="avatars/team.png" alt="The Tide team together" />
+          <figcaption class="hero__cap">the crew, building Tide in the open :)</figcaption>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section id="team" class="section">
+      <div class="section__head">
+        <h2 class="section__title">The team</h2>
+        <p class="section__lead">The people who turned a wild cryptographic idea into something you can actually build with, and the ones keeping it open for everyone.</p>
+      </div>
+      <div class="people people--team">
+        <article class="person neu">
+          <div class="avatar avatar--photo" role="img" aria-label="Julio" style="background-image:url('avatars/julio.png'); background-position:50% 30%;"></div>
+          <h3 class="person__name">Julio</h3>
+          <p class="person__bio">Engineers the decentralised systems and services that make breach-proof cryptography real in production.</p>
+          <div class="person__tags"><span>Cryptography</span><span>Distributed Systems</span></div>
+        </article>
+        <article class="person neu">
+          <div class="avatar avatar--photo" role="img" aria-label="Sasha" style="background-image:url('avatars/sasha.png'); background-position:50% 30%;"></div>
+          <h3 class="person__name">Sasha</h3>
+          <p class="person__bio">Builds Tide's developer-facing tooling and lives deep in the <strong>Keycloak</strong> IAM internals behind TideCloak.</p>
+          <div class="person__tags"><span>Cryptography</span><span>Keycloak / IAM</span></div>
+        </article>
+        <article class="person neu">
+          <div class="avatar avatar--photo" role="img" aria-label="Dom" style="background-image:url('avatars/dom.png'); background-position:50% 30%;"></div>
+          <h3 class="person__name">Dom</h3>
+          <p class="person__bio">Building Tide from the ground up, turning a frontier cryptographic breakthrough into something product teams can actually ship.</p>
+          <div class="person__tags"><span>Product</span><span>Delivery</span></div>
+        </article>
+        <article class="person neu">
+          <div class="avatar avatar--photo" role="img" aria-label="UV" style="background-image:url('avatars/uv.png'); background-position:50% 30%;"></div>
+          <h3 class="person__name">UV</h3>
+          <p class="person__bio">Two decades architecting large-scale telecom and VoIP systems. The technical mind behind Tide's <strong>Ineffable Cryptography</strong>.</p>
+          <div class="person__tags"><span>Cryptography</span><span>Systems</span></div>
+        </article>
+        <article class="person neu">
+          <div class="avatar avatar--photo" role="img" aria-label="Mike" style="background-image:url('avatars/mike.png'); background-position:50% 30%;"></div>
+          <h3 class="person__name">Mike</h3>
+          <p class="person__bio">15+ years across marketing, growth and partnerships for some of the world's top brands. Drives Tide's go-to-market and story.</p>
+          <div class="person__tags"><span>Growth</span><span>Partnerships</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERTISE ============ -->
+    <section id="expertise" class="section">
+      <div class="section__head">
+        <h2 class="section__title">What we're obsessed with</h2>
+        <p class="section__lead">The hard problems we get to wrestle with every day.</p>
+      </div>
+      <div class="cards">
+        <div class="card neu">
+          <div class="card__icon neu-inset">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+          </div>
+          <h3>Ineffable Cryptography</h3>
+          <p>Keys are born in pieces and never come together in one place, not on a server, not in memory, not even for us. It is breach-proof by design, with the research published for anyone to check.</p>
+        </div>
+        <div class="card neu">
+          <div class="card__icon neu-inset">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>TideCloak</h3>
+          <p>A drop-in identity layer with an authority no one can compromise. Secure your apps and APIs in a few lines of code, and stay safe even if your own vendor gets breached.</p>
+        </div>
+        <div class="card neu">
+          <div class="card__icon neu-inset">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5"/><path d="M15 7l5 5-5 5"/></svg>
+          </div>
+          <h3>Built in the open</h3>
+          <p>Open source and self-sovereign. Run it yourself, read every line, and trust it because you can see it, not because we asked you to.</p>
+        </div>
+        <div class="card neu">
+          <div class="card__icon neu-inset">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="19" r="2.2"/><path d="M12 7.2v3.3M11 11.5l-5 5.5M13 11.5l5 5.5"/></svg>
+          </div>
+          <h3>Decentralised by design</h3>
+          <p>Authority lives split across a network of independent nodes (the ORKs), so no single party, breached vendor included, ever holds the keys to the kingdom.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section">
+      <div class="cta neu">
+        <h2 class="cta__title">Come build with us.</h2>
+        <p class="cta__sub">Tide is open source and built in the open. Jump in with the growing crowd of devs, security folks and privacy advocates who are making the breach a thing of the past, no permission needed.</p>
+        <div class="cta__btns">
+          <a href="https://discord.gg/XBMd9ny2q5" target="_blank" rel="noopener" class="neu-btn neu-btn--accent">Join the Discord ↗</a>
+          <a href="https://github.com/tide-foundation" target="_blank" rel="noopener" class="neu-btn">GitHub ↗</a>
+          <a href="https://www.youtube.com/@tidefoundation" target="_blank" rel="noopener" class="neu-btn">YouTube ↗</a>
+          <a href="https://tide.org" target="_blank" rel="noopener" class="neu-btn">tide.org ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="footer__brand">TideSupreme</span>
+    <span class="footer__note">The team behind Tide · <span id="year"></span></span>
+  </footer>
+
+  <!-- full-photo lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <figure class="lightbox__frame">
+      <img id="lightbox-img" src="" alt="" />
+      <figcaption id="lightbox-cap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
