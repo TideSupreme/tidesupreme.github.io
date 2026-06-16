@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tidesupreme.github.io/sitemap.xml
