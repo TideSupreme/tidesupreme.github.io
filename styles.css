@@ -246,6 +246,12 @@ strong { color: var(--accent-2); font-weight: 600; }
   padding: .35rem .7rem; border-radius: 12px;
   box-shadow: inset 2px 2px 5px var(--sh-dark), inset -2px -2px 5px var(--sh-light);
 }
+.built__more {
+  display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;
+  margin-top: 1.8rem; padding: 1.6rem 1.8rem;
+}
+.built__more p { color: var(--text-soft); font-size: 1rem; max-width: 62ch; margin: 0; }
+.built__more .neu-btn { flex: none; }
 
 /* ============================================================
    CTA
