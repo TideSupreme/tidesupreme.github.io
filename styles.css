@@ -224,6 +224,29 @@ strong { color: var(--accent-2); font-weight: 600; }
 .card h3 { font-family: var(--f-display); font-weight: 700; font-size: 1.25rem; margin-bottom: .5rem; }
 .card p { color: var(--text-soft); font-size: .96rem; }
 
+/* project showcase cards */
+.project__top { display: flex; align-items: center; justify-content: space-between; gap: .8rem; margin-bottom: 1rem; }
+.project__badge {
+  font-family: var(--f-display); font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px;
+  color: #fff; background: var(--accent);
+  border: 3px solid var(--ink); box-shadow: 3px 3px 0 var(--ink);
+  padding: .3rem .6rem; border-radius: 9px;
+}
+.project__badge--alt { background: var(--ink); }
+.project__repo {
+  font-family: var(--f-display); font-weight: 700; font-size: .85rem; color: var(--text);
+  background: var(--bg); border: 3px solid var(--ink); box-shadow: 3px 3px 0 var(--ink);
+  padding: .35rem .7rem; border-radius: 10px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.project__repo:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
+.project__tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
+.project__tags span {
+  font-family: var(--f-display); font-size: .72rem; font-weight: 600; color: var(--text-soft);
+  padding: .35rem .7rem; border-radius: 12px;
+  box-shadow: inset 2px 2px 5px var(--sh-dark), inset -2px -2px 5px var(--sh-light);
+}
+
 /* ============================================================
    CTA
    ============================================================ */
